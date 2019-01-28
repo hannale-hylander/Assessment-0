@@ -1,0 +1,7 @@
+C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assesmnt_2\Assesmnt_2\bin\Debug\Assesmnt_2.exe.config
+C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assesmnt_2\Assesmnt_2\bin\Debug\Assesmnt_2.exe
+C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assesmnt_2\Assesmnt_2\bin\Debug\Assesmnt_2.pdb
+C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assesmnt_2\Assesmnt_2\obj\Debug\Assesmnt_2.csprojResolveAssemblyReference.cache
+C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assesmnt_2\Assesmnt_2\obj\Debug\Assesmnt_2.csproj.CoreCompileInputs.cache
+C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assesmnt_2\Assesmnt_2\obj\Debug\Assesmnt_2.exe
+C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assesmnt_2\Assesmnt_2\obj\Debug\Assesmnt_2.pdb
