@@ -13,27 +13,52 @@ namespace Assesment_0
         {
 
             int[] test = { 0, 1, 1, 0, 1, 0, 1, 0, 0, 1 };
-            SortArray(test);
+
+            Console.WriteLine("unordered");
+            for(int i =0; i<test.Length; i++)
+            {
+                Console.Write(test[i]);
+                
+            }
+
+            Console.WriteLine();
+            BubbleSort(test);
+            Console.WriteLine("");
+            Console.WriteLine("ordered");
+            for (int i = 0; i < test.Length; i++)
+            {
+                Console.Write(test[i]);
+            }
+            // BubbleSort(test);
+
             Console.ReadKey();
 
         }//END MAIN
-        static void SortArray(int[] test1)
-        {
-            
-            for (int i = 0; i < test1.Length; i++)
-            {
-                if (test1[i] == 0)
-                {
-                    Console.Write(test1[i]);
-                }
 
-                for (int j = 0; j < test1.Length; j++)
-                {
-                    if (test1[j] == 1) { }
-                
-                    Console.Write(test1[i]);
+            
+        
+
+        static void BubbleSort(int[] CrazyArray) {
+            bool sorted = false;
+            while (!sorted) {
+                sorted = true;
+                for (int i =1; i < CrazyArray.Length; i++) { 
+                      if (CrazyArray [i] < CrazyArray[i-1]) {
+                         SwapArray(i, (i-1), CrazyArray);
+                         sorted = false;
+                      }
                 }
             }
-        }//END FUNCTION
+        }
+            static int [] SwapArray(int i, int j, int[] ary_Numbers) {
+            int temp = 0;
+            temp = ary_Numbers[i];
+            ary_Numbers[i] = ary_Numbers[j];
+            ary_Numbers[j] = temp;
+            return ary_Numbers;
+        }
+
+         
+
     }//END CLASS
 }//END NAMESPACE

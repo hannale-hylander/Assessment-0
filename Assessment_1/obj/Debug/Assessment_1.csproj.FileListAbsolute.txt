@@ -5,3 +5,10 @@ C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assessment_1\Assess
 C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assessment_1\Assessment_1\obj\Debug\Assessment_1.exe
 C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assessment_1\Assessment_1\obj\Debug\Assessment_1.pdb
 C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assessment_1\Assessment_1\obj\Debug\Assessment_1.csprojResolveAssemblyReference.cache
+C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assessment_1\bin\Debug\Assessment_1.exe.config
+C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assessment_1\bin\Debug\Assessment_1.exe
+C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assessment_1\bin\Debug\Assessment_1.pdb
+C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assessment_1\obj\Debug\Assessment_1.csprojResolveAssemblyReference.cache
+C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assessment_1\obj\Debug\Assessment_1.csproj.CoreCompileInputs.cache
+C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assessment_1\obj\Debug\Assessment_1.exe
+C:\Users\CCA005\Documents\class projects\Assesment 1-24-2019\Assessment_1\obj\Debug\Assessment_1.pdb

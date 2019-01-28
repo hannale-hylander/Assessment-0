@@ -14,18 +14,18 @@ namespace Assesmnt_2
             {
                 Console.WriteLine("This program is designed to see if two words or numbers are palindrones,");
                 Console.WriteLine("meaning that they are the same backwards and forwards");
-                string userInput1 = prompt("Please enter the first word or number");
-                string userInput2 = prompt("Please enter the second word or number");
+                string userInput1 = prompt("Please enter the word or number");
+                string userInput2 = userInput1;
 
                 if (SameLengthCheck(userInput1, userInput2) == true)
                 {
                     if (IsPalindrome(userInput1, userInput2) == true)
                     {
-                        Console.WriteLine("They are palindrones!");
+                        Console.WriteLine("Palindrones!");
                     }
                       else if (IsPalindrome(userInput1, userInput2) == false)
                       {
-                              Console.WriteLine("Those are not palindrones");
+                              Console.WriteLine("Not palindrones");
                       }
                 }
           

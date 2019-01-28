@@ -11,7 +11,9 @@ namespace Assessment_1
         static void Main(string[] args)
         {
             string line = "";
+            string[] temp;
             StreamReader in_file = new StreamReader("C:\\temp\\Program.cs");
+      
             while (!in_file.EndOfStream)
             {
                 line = in_file.ReadLine();
@@ -29,7 +31,7 @@ namespace Assessment_1
             Console.ReadKey();
 
         }//END MAIN
-        static void curseCount(string tempPath)
+        static void splitText (string tempPath)
         {
             int count = 0;
             string Line = "";
@@ -41,15 +43,15 @@ namespace Assessment_1
             }//END WHILE
             in_file.Close();
 
-            string[] splitText = Line.Split(' ', '\t', '\n');
+            string[] splitText = Line.Split('/' );
 
             foreach (string word in splitText)
             {
-                string testWord = word.ToLower();
-                if (testWord.Contains("//")
+                if (word.Contains("//"))
                 {
                     count++;
-                    Console.WriteLine(testWord);
+                    
+                    Console.WriteLine(word);
 
                 }//END IF
 
